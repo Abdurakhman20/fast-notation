@@ -1,0 +1,12 @@
+.wrapper {
+  text-align: center;
+  padding-top: 200px;
+}
+.wrapper span {
+  font-size: 10rem;
+}
+.wrapper p {
+  font-size: 2.8rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
