@@ -7,9 +7,9 @@ export const config: DataSourceOptions = {
   username: 'fast_notation_user',
   password: '1234',
   database: 'fast_notation',
-  entities: [__dirname + '/**/*.entity{.ts, .js}'],
+  entities: [__dirname + '/**/*.entity{.ts,.js}'],
   synchronize: false,
-  migrations: [__dirname + '/migrations/**/*{.ts, .js}'],
+  migrations: [__dirname + '/migrations/**/*{.ts,.js}'],
 };
 
 const dataSourse = new DataSource(config);
